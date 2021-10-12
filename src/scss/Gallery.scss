@@ -1,0 +1,30 @@
+.gallery__title {
+  font-size: 25px;
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.gallery-list__item {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  list-style-type: none;
+  display: flex;
+}
+
+.gallery__button-remove {
+  height: 30px;
+  padding: 2px 15px;
+  margin-left: 10px;
+  border: 2px solid #2a324b;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.gallery__button-remove:hover {
+  color: #767b91;
+  border-color: #767b91;
+}

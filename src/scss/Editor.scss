@@ -1,0 +1,25 @@
+.editor {
+  margin-bottom: 50px;
+}
+
+.editor__inputs {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor__heading {
+  font-size: 22px;
+}
+
+.editor__button-save {
+  padding: 5px 30px;
+  border: 2px solid #2a324b;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.editor__button-save:hover {
+  color: #767b91;
+  border-color: #767b91;
+}
