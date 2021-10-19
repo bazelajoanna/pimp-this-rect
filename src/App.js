@@ -79,7 +79,7 @@ function App() {
         outputColor={color}
         outputWidth={width}
         outputHeight={height}
-        outputBorderRadius={borderRadius}
+        outputBorderRadius={borderRadius/2}
       ></Output>
       <Gallery rects={rects} handleRemoveRect={handleRemoveRect}></Gallery>
     </>
